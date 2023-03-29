@@ -21,7 +21,7 @@ export type Setting = typeof defaultSetting
 export const defaultResetContinuousDialogue = false
 
 export const defaultMaxInputTokens: Record<Model, number> = {
-  "gpt-3.5-turbo": 1,
+  "gpt-3.5-turbo": 3072,
   "gpt-4": 6144,
   "gpt-4-32k": 24576
 }
